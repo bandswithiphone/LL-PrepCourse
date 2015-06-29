@@ -1,0 +1,61 @@
+body {
+	background-color: #cccfff;
+	font-family: Trebuchet MS;
+}
+
+h1 {
+	color: #6600cc;
+}
+
+h2 {
+	color: #339999;
+}
+
+img {
+	transform: translate(80px, 20px);
+	transform: scale(0.88, 0.65);
+}
+.img-1{
+	border-radius: 50%;
+	box-shadow: 5px 5px 5px #339999;
+}
+.img-2 {
+	box-shadow: 5px 5px 5px #339999;
+	width: 275px;
+	height: 275px;
+}
+.img-2:hover {
+	border: 12px solid #6600cc;
+  border-radius: 50%;
+}
+.img-3 {
+	box-shadow: 5px 5px 5px #339999;
+	width: 275px;
+	height: 275px;
+}
+.img-3:hover {
+	box-shadow: 7px 7px 7px #6600cc;
+	width: 325px;
+	height: 325px;
+}
+
+p {
+	box-shadow:  inset 0 0 5px 5px #6600cc;
+	border-radius: 5px;
+}
+
+a:link {
+    color: green;
+}
+
+a:visited {
+    color: green;
+}
+
+a:hover {
+    color: #6600cc;
+}
+
+a:active {
+    color: purple;
+}
